@@ -13,7 +13,7 @@
   while( parameterList.hasMoreElements() )
   {
     String sName = parameterList.nextElement().toString();
-    if(sName.toLowerCase.startsWith("question")){
+    if(sName.toLowerCase().startsWith("question")){
       String[] sMultiple = request.getParameterValues( sName );
       if( 1 >= sMultiple.length )
         // parameter has a single value. print it.
