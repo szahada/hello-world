@@ -6,6 +6,11 @@
 </head>
 <body>
     <h2 class="hello-title">Hello World!</h2>
+    <form method="post" action="/index.jsp">
+        <input type="checkbox" name="newsletter" id="newsletter">
+        <label for="newsletter">Subscribe?</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
     <%@ page import = "java.util.*" %>
     <b>Parameters:</b><br>
     <%
